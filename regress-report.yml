@@ -1,4 +1,13 @@
 ---
+test-cases:
+  - summary: |
+      Не работает фильтр по цвету
+    status: fail
+
+  - summary: |
+      Не работает фильтр по размеру
+    status: fail
+
 bugreports:
   - summary: |
     Не работает фильтр по цвету
