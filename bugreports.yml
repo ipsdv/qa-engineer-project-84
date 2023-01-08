@@ -33,7 +33,7 @@
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
   expected-result: |
-  actual-result: |
+  actual-result: | должна открыться мобильная версия сайта
     Некорректно отоюражается верстка
     Ошибка изображена на скриншоте 2.png
    
