@@ -28,7 +28,7 @@
 - summary: |
     Отсутствует мобильная версия сайта
   environment: |
-    Google Chrome 108.0.5359.124 (Официальная сборка), (x86_64)
+    Google Chrome 108.0.5359.124 (Официальная сборка), (x86_64) (DevTools)
     OC macOS Monterey 12.0.1
   steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
