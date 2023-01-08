@@ -34,7 +34,7 @@ test-cases:
   
   - summary: |
       Проверка мобильной версии сайта
-    status: fail
+    status: pass
     
 bugreports:
   - summary: |
@@ -62,15 +62,3 @@ bugreports:
     actual-result: |
       В фильтре слева страницы отсутствует раздел с размером
       Ошибка изображена на скриншоте 2.png
-  
-  - summary: |
-      Не работает мобильная версия сайта
-    environment: |
-      Google Chrome 108.0.5359.124 (Официальная сборка), (x86_64) (DevTools)
-      OC macOS Monterey 12.0.1
-    steps-to-reproduce: |
-      1. Зайти с мобильного устройства на страницу https://hexlet-products-store.vercel.app/
-    expected-result: |
-      Верстка должна отображаться корректно
-    actual-result: |
-      Верстка отображается не корректно
